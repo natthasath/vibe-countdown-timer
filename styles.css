@@ -1,0 +1,71 @@
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.countdown {
+  font-family: 'Orbitron', monospace;
+  font-size: 5rem;
+  color: #fff;
+  background: rgba(0,0,0,0.2);
+  border-radius: 20px;
+  padding: 30px 60px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+  margin-bottom: 30px;
+  letter-spacing: 0.1em;
+  transition: background 0.3s;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  width: 80px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1.2rem;
+  outline: none;
+  text-align: center;
+}
+
+button {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  color: #764ba2;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: background 0.2s, color 0.2s;
+}
+
+button:hover {
+  background: #764ba2;
+  color: #fff;
+}
+
+.footer {
+  margin-top: 40px;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 0.95rem;
+} 

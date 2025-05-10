@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown Timer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Countdown Timer</h1>
+  <div class="controls">
+    <label for="startValue" style="position:absolute;left:-9999px;">ค่าเริ่มต้น</label>
+    <input type="number" id="startValue" min="1" max="9999" value="60" placeholder="ค่าเริ่มต้น">
+    <button onclick="startCountdown()">เริ่มนับถอยหลัง</button>
+    <button onclick="resetCountdown()">รีเซ็ต</button>
+  </div>
+  <div class="countdown" id="countdownDisplay">10</div>
+  <script src="script.js"></script>
+</body>
+</html> 
